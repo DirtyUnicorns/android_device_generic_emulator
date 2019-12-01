@@ -1,14 +1,14 @@
 PRODUCT_COPY_FILES += \
-    vendor/extras/emulator/fstab.ranchu:vendor/etc/fstab.ranchu
+    device/generic/emulator/fstab.ranchu:vendor/etc/fstab.ranchu
 
 $(call inherit-product, build/target/product/sdk_x86.mk)
 
-$(call inherit-product, vendor/extras/emulator/common.mk)
+$(call inherit-product, device/generic/emulator/common.mk)
 
 # Override product naming for DU
 PRODUCT_NAME := du_emulator
 
-DEVICE_PACKAGE_OVERLAYS += vendor/extras/emulator/overlay
+DEVICE_PACKAGE_OVERLAYS += device/generic/emulator/overlay
 
 # Apply a reasonable DPI
 RODUCT_PROPERTY_OVERRIDES += \

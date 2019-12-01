@@ -6,15 +6,11 @@ device/generic/goldfish
 device/generic/goldfish-opengl
 device/generic/x86_64
 
-# Setup emulator
-cd <sourceDir>
-ln -sr vendor/extras/emulator device/generic/emulator
-
 # Build emulator
 . build/envsetup.sh
 lunch du_emulator-userdebug
 mka
-. vendor/extras/emulator/create_emulator_image.sh
+. device/generic/emulator/create_emulator_image.sh
 
 # Run emulator
 unzip du_emulator.zip into /tmp
