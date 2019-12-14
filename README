@@ -11,7 +11,3 @@ device/generic/x86_64
 lunch du_emulator-userdebug
 mka
 . device/generic/emulator/create_emulator_image.sh
-
-# Run emulator
-unzip du_emulator.zip into /tmp
-. /tmp/generic_x86/start_emulator_image.sh
