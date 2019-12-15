@@ -1,11 +1,5 @@
 Precondition: android SDK must be installed in ~/Android/Sdk
 
-# Get the following repos
-device/generic/common
-device/generic/goldfish
-device/generic/goldfish-opengl
-device/generic/x86_64
-
 # Build emulator
 . build/envsetup.sh
 lunch du_emulator-userdebug
