@@ -1,0 +1,22 @@
+[
+ {
+   "repository":  "DirtyUnicorns/android_device_generic_common",
+   "target_path": "device/generic/common",
+   "branch":      "q10x"
+ },
+ {
+   "repository":  "DirtyUnicorns/android_device_generic_goldfish",
+   "target_path": "device/generic/goldfish",
+   "branch":      "q10x"
+ },
+ {
+   "repository":  "DirtyUnicorns/android_device_generic_goldfish-opengl",
+   "target_path": "device/generic/goldfish-opengl",
+   "branch":      "q10x"
+ },
+ {
+   "repository":  "DirtyUnicorns/android_device_generic_x86_64",
+   "target_path": "device/generic/x86_64",
+   "branch":      "q10x"
+ }
+]
