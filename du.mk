@@ -3,7 +3,7 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/sdk_x86.mk)
 
-$(call inherit-product, device/generic/emulator/common.mk)
+$(call inherit-product, vendor/du/config/common.mk)
 
 # Override product naming for DU
 PRODUCT_NAME := du_emulator
